@@ -68,6 +68,11 @@ function load_mira_nohb()
 {
     document.write(MIRA('mira')+MIRA('mira-nohb')+MIRA('c-code')+'<script>mira_finished();</scr'+'ipt>');
 }
+
+function load_dumpermod()
+{
+    document.write(MIRA('mira')+MIRA('dumpermod')+MIRA('c-code')+'<script>mira_finished();</scr'+'ipt>');
+}
 </script>
 <script>function print(){}</script>
 <script src="common/exploit.js"></script>
@@ -83,6 +88,7 @@ function load_mira_nohb()
 <script src="mira/enable-updates.js"></script>
 <script src="mira/ftp.js"></script>
 <script src="mira/mira-nohb.js"></script>
+<script src="mira/dumpermod.js"></script>
 <script>jb_finished();</script>
 <table align="center" style="width:500px;margin-top:150px;">
 <tr>
@@ -97,6 +103,8 @@ function load_mira_nohb()
 <td width="25%"><a href="#" onclick="load_ftp(); return false">FTP</a></td>
 <td width="25%"><a href="#" onclick="load_mira_nohb(); return false">MIRA (NO HB)</a></td>
 </tr>
+<tr>
+<td width="25%"><a href="#" onclick="load_dumpermod(); return false">DUMPER (MOD)</a></td>
 </table>
 </body>
 </html>
